@@ -87,6 +87,14 @@ echo "masternode=1" >> /root/.nos/nos.conf
 echo "masternodeaddr$IP:2727" >> /root/.nos/nos.conf
 echo "externalip$IP:2727" >> /root/.nos/nos.conf
 echo "masternodeprivkey=$KEY" >> /root/.nos/nos.conf
+echo addnode=nos.seeds.mn.zone >> /root/.nos/nos.conf
+echo addnode=nos.mnseeds.com >> /root/.nos/nos.conf
+echo addnode=140.82.3.141:2727  >> /root/.nos/nos.conf
+echo addnode=149.28.64.177:2727  >> /root/.nos/nos.conf
+echo addnode=45.77.68.213:2727  >> /root/.nos/nos.conf
+echo addnode=45.32.199.106:2727  >> /root/.nos/nos.conf
+echo addnode=80.211.214.250:2727  >> /root/.nos/nos.conf
+echo addnode=144.202.104.157:2727 >> /root/.nos/nos.conf
 echo -e "${GREEN}STARTING THE DAEMON${NC}"
 cd /root
 sudo nosd
